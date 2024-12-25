@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/wss",
-      "dest": "/main"
+      "src": "/(.*)",
+      "dest": "main.go"
     }
   ]
 }
